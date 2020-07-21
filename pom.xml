@@ -8,5 +8,18 @@
     <artifactId>JenkinsAutomationPipeline</artifactId>
     <version>1.0-SNAPSHOT</version>
 
+    <repositories>
+        <repository>
+            <id>myMavenRepo.read</id>
+            <url>https://mymavenrepo.com/repo/NeGdZv5g2VYN6b84MqXh/</url>
+        </repository>
+    </repositories>
+
+    <distributionManagement>
+        <repository>
+            <id>myMavenRepo.write</id>
+            <url>https://mymavenrepo.com/repo/3hCD2sY1MO5NZeDgRz3k/</url>
+        </repository>
+    </distributionManagement>
 
 </project>
